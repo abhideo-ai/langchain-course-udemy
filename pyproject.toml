@@ -17,7 +17,6 @@ dependencies = [
     "langchain-pinecone>=0.2.13",
     "langchain-text-splitters>=1.1.2",
     "langchain-unstructured>=1.0.1",
-    "libmagic>=1.0",
     "python-dotenv>=1.2.3",
     "python-magic>=0.4.27",
     "unstructured>=0.18.32",

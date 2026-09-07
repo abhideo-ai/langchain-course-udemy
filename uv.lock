@@ -1470,7 +1470,6 @@ dependencies = [
     { name = "langchain-pinecone" },
     { name = "langchain-text-splitters" },
     { name = "langchain-unstructured" },
-    { name = "libmagic" },
     { name = "python-dotenv" },
     { name = "python-magic" },
     { name = "unstructured", version = "0.18.32", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
@@ -1488,7 +1487,6 @@ requires-dist = [
     { name = "langchain-pinecone", specifier = ">=0.2.13" },
     { name = "langchain-text-splitters", specifier = ">=1.1.2" },
     { name = "langchain-unstructured", specifier = ">=1.0.1" },
-    { name = "libmagic", specifier = ">=1.0" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "unstructured", specifier = ">=0.18.32" },
@@ -1672,12 +1670,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/f4/b7/74d0992a461eacad8
 wheels = [
     { url = "https://files.pythonhosted.org/packages/0a/e1/5c751a0f1a14de49f19a2ebc0f5dfadfaf04a07f245c5f749ec31f263715/langsmith-0.12.2-py3-none-any.whl", hash = "sha256:ca2b6386cf452cf8edebf27c9c476503c18bad895e7ad566578393fa0ba7fea2", size = 760692, upload-time = "2026-09-05T20:26:18.166Z" },
 ]
-
-[[package]]
-name = "libmagic"
-version = "1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/83/86/419ddfc3879b4565a60e0c75b6d19baec48428cbc2f15aca5320b3d136f6/libmagic-1.0.tar.gz", hash = "sha256:649f1ce7fb7c92796badbb812555e4a926351da4f5cdf82e810b5cd371aedf8d", size = 3665, upload-time = "2012-03-02T17:56:36.681Z" }
 
 [[package]]
 name = "llvmlite"
